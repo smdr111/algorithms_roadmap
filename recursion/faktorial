@@ -1,0 +1,5 @@
+def recursion_fakt(n):
+  if n == 1:
+    return 1
+  else:
+    return n * recursion_fakt(n-1)
